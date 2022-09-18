@@ -1,0 +1,31 @@
+{
+  "name": "cordova-plugin-admob-mediation-pangle",
+  "version": "0.1.0",
+  "description": "Cordova AdMob Mediation Plugin for Pangle",
+  "scripts": {
+    "version": "sync-package-version --cordova-plugin"
+  },
+  "cordova": {
+    "id": "cordova-plugin-admob-mediation-pangle",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "repository": "junker/cordova-plugin-admob-mediation-pangle",
+  "author": "Junker",
+  "license": "MIT",
+  "keywords": [
+    "cordova-android",
+    "cordova-ios",
+    "cordova",
+    "plugin",
+    "admob",
+    "pangle",
+    "mediation"
+  ],
+  "bugs": {
+    "url": "https://github.com/junker/cordova-plugin-admob-mediation-pangle/issues"
+  },
+  "homepage": "https://github.com/junker/cordova-plugin-admob-mediation-pangle"
+}

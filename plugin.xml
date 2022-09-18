@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="cordova-plugin-admob-mediation-pangle" version="0.1.0"
+    xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <name>cordova-plugin-admob-mediation-pangle</name>
+    <description>Cordova AdMob Mediation Plugin for Pangle</description>
+
+    <engines>
+        <engine name="cordova" version=">=8.0.0" />
+    </engines>
+
+    <platform name="android">
+        <framework src="com.google.ads.mediation:pangle:4.6.+" />
+    </platform>
+
+    <platform name="ios">
+        <podspec>
+            <config>
+                <source url="https://cdn.cocoapods.org/"/>
+            </config>
+            <pods use-frameworks="true">
+                <pod name="GoogleMobileAdsMediationPangle" spec="~> 4.6" />
+            </pods>
+        </podspec>
+        <config-file parent="SKAdNetworkItems" target="*-Info.plist">
+            <array>
+              <dict>
+                <key>SKAdNetworkIdentifier</key>
+                <string>238da6jt44.skadnetwork</string>
+              </dict>
+              <dict>
+                <key>SKAdNetworkIdentifier</key>
+                <string>22mmun2rn5.skadnetwork</string>
+              </dict>
+            </array>
+        </config-file>
+    </platform>
+</plugin>
