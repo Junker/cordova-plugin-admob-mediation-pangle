@@ -1,0 +1,13 @@
+cdvPluginPostBuildExtras.add({
+    repositories {
+        google()
+        mavenCentral()
+        maven {
+		    url 'https://artifact.bytedance.com/repository/pangle/'
+        }
+    }
+
+    dependencies {
+        implementation 'com.google.ads.mediation:pangle:4.6.0.9.0'
+    }
+});
