@@ -20,7 +20,7 @@
                 <source url="https://cdn.cocoapods.org/"/>
             </config>
             <pods use-frameworks="true">
-                <pod name="GoogleMobileAdsMediationPangle" spec="~> 8.2" />
+                <pod name="GoogleMobileAdsMediationPangle" spec="~> 8.0" />
             </pods>
         </podspec>
         <config-file parent="SKAdNetworkItems" target="*-Info.plist">
